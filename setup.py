@@ -131,7 +131,7 @@ setup(
     ],
     entry_points={
         "lms.djangoapp": [
-            "x_courses = x_courses.apps:CoursesCatalogConfig",
+            "x_courses = x_courses.apps:XCoursesConfig",
         ],
     },
 )

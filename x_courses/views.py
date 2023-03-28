@@ -4,4 +4,4 @@ from rest_framework.response import Response
 
 @api_view(['GET'])
 def get_courses(request):
-    return Response({'message': 'X Courses is working'})
+    return Response({'message': 'X Courses 1 is working'})
